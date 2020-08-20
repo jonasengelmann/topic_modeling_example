@@ -58,7 +58,7 @@ Further, we can calculate the coherence score, which tells us how often or how s
 
 Plotting word clouds can also give us a good idea about which topics have been recognized. For example here we can also see that words for weekdays and months should probably be removed to allow for more meaningful topics:
 
-![Word clouds](word_clouds_example4.png)
+![Word clouds](word_clouds_example.png)
 
 
 ## pyLDAvis
