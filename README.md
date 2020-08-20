@@ -67,4 +67,5 @@ Another popular visualization method is pyLDAvis:
 
 ![pyLDAvis](pyLDAvis_screenshot.png)
 
+You can test this representation for a small LDA model here: [pyLDAvisTest](https://htmlpreview.github.io/?https://github.com/jonasengelmann/topic_modeling_example/blob/master/pyLDAvis_lda_model_example.html)
 
