@@ -66,4 +66,9 @@ Another popular visualization method is pyLDAvis:
 
 ![pyLDAvis](pyLDAvis_screenshot.png)
 
-You can test this representation for a small model trained with [Gensim's LDA implementation](https://htmlpreview.github.io/?https://github.com/jonasengelmann/topic_modeling_example/blob/master/pyLDAvis_lda.html) and one with [Mallet's](https://htmlpreview.github.io/?https://github.com/jonasengelmann/topic_modeling_example/blob/master/pyLDAvis_lda_mallet.html)
+You can test this representation for a small model trained with [Gensim's LDA implementation](https://htmlpreview.github.io/?https://github.com/jonasengelmann/topic_modeling_example/blob/master/pyLDAvis_lda.html) and one with [Mallet's](https://htmlpreview.github.io/?https://github.com/jonasengelmann/topic_modeling_example/blob/master/pyLDAvis_lda_mallet.html).
+
+
+## t-SNE  Visualization
+
+t-SNE (T-distributed Stochastic Neighbor Embedding) is a non-linear dimensionality reduction algorithm which can be used to better visualize our results: The LDA model estimates how much percentage of each topic is present for each document, resulting in a vector and thus in a fixed position for each document in a multi-dimensional space. The number of dimension is determined by the number of possible topics. t-SNE can now break down these dimension into two while trying to preserve as much relational information as possible. Here is the result for the [Gensim model](https://htmlpreview.github.io/?https://github.com/jonasengelmann/topic_modeling_example/blob/master/tsne-lda.html) and [Mallet model](https://htmlpreview.github.io/?https://github.com/jonasengelmann/topic_modeling_example/blob/master/tsne-lda_mallet.html).
