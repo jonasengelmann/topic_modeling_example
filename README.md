@@ -71,7 +71,13 @@ You can test this representation for a small model trained with [Gensim's LDA im
 
 ## t-SNE  Visualization
 
+![tsne](tsne_screenshot.png)
+
 t-SNE (T-distributed Stochastic Neighbor Embedding) is a non-linear dimensionality reduction algorithm which can be used to better visualize our results: The LDA model estimates how much each topic is present for each document, resulting in a vector for each document that points at a fixed position in a multi-dimensional space. The number of dimension is determined by the number of possible topics. t-SNE can now break down these dimension into two (or three) while trying to preserve as much relational information as possible. Here is the result for the [Gensim model](https://jonasengelmann.github.io/topic_modeling_example/tsne-lda.html) and [Mallet model](https://jonasengelmann.github.io/topic_modeling_example/tsne-lda_mallet.html).
 
 
 Tensorflow's Embedding Projector offers a great way to visualize our data in 3d. It comes with its own implementation of t-SNE and also visualizes the learning process of the algorithm: Starting from a randomized position each point is iteratively moved to better represent the distances found in the higher dimensional space. There is also a search box on the right side which can be used to search the article's titles providing a way to somewhat verify the model's performance. The Mallet model can be accessed [here](http://projector.tensorflow.org/?config=https://raw.githubusercontent.com/jonasengelmann/topic_modeling_example/master/embedding_projector_config.json).
+
+Here is one learning process of the t-SNE algorithm:
+
+![tsne](tsne.gif)
