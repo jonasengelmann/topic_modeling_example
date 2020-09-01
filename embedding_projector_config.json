@@ -1,0 +1,13 @@
+{
+  "embeddings": [
+    {
+      "tensorName": "LDA Mallet Topic Modeling",
+      "tensorShape": [
+        14378,
+        20
+      ],
+      "tensorPath": "https://raw.githubusercontent.com/jonasengelmann/topic_modeling_example/master/lda_mallet_tensor.tsv",
+      "metadataPath": "https://raw.githubusercontent.com/jonasengelmann/topic_modeling_example/master/lda_mallet_metadata_title.tsv"
+    }
+  ]
+}
